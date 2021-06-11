@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Rtdxz/Rt-cli#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "chalk": "^4.1.1",
     "clear": "^0.1.0",
     "commander": "^7.2.0",
