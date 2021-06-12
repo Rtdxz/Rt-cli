@@ -5,8 +5,6 @@ program.version(require('../package.json').version)
 program 
     .command('init <name>')
     .description('init project ')
-    .action(name =>{
-        console.log('🥳完成添加' + name)
-    })
+    .action(require('../lib/init'))
 
 program.parse(process.argv)
