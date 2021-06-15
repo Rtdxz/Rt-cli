@@ -7,4 +7,5 @@ program
     .description('init project ')
     .action(require('../lib/init'))
 
+    
 program.parse(process.argv)
